@@ -2,9 +2,11 @@ import time
 
 import RPi.GPIO as GPIO
 
-# MG996R: 50Hz (20ms), 
-#   771(0.771ms) - 2193(2.19ms) 
-#   3.8% - 10.95
+# MG996R
+#   PWM period: 50Hz (20ms), 
+#   Available pulse width: 0.771ms - 2.193ms (3.8%-10.95%)
+
+# For Tamiya Hotshot with MG996R TBD
 NEWTRAL = 6.5
 L_MAX = 4.7
 R_MAX = 9
